@@ -3,6 +3,14 @@ body{
   color: white;
 }
 
+/*Navbar*/
+
+
+
+
+
+
+/*Entire Code for Photogallery Stuff*/
 h1{
   text-align: center;
   font-weight: bold;
@@ -24,9 +32,82 @@ h1{
   margin: 2rem;
   border-radius: 2rem;
   background-color: #353849;
-  /* background-color: #e2d48e; */
 }
 
-h4{
+/*Year 6 2017-2018*/
+#content6{
+  display: none;
+}
+
+.year:hover #content6{
+  display: block;
+}
+
+.year:hover .year6{
+  display: none;
+}
+
+/*Year 5 2016-2017*/
+#content5{
+  display: none;
+}
+
+.year:hover #content5{
+  display: block;
+}
+
+.year:hover .year5{
+  display: none;
+}
+
+/*Year 4 2015-2016*/
+#content4{
+  display: none;
+}
+
+.year:hover #content4{
+  display: block;
+}
+
+.year:hover .year4{
+  display: none;
+}
+
+/*Year 3 2014-2015*/
+#content3{
+  display: none;
+}
+
+.year:hover #content3{
+  display: block;
+}
+
+.year:hover .year3{
+  display: none;
+}
+
+/*Year 2 2013-2014*/
+#content2{
+  display: none;
+}
+
+.year:hover #content2{
+  display: block;
+}
+
+.year:hover .year2{
+  display: none;
+}
+
+/*Year 1 2012-2013*/
+#content1{
+  display: none;
+}
+
+.year:hover #content1{
+  display: block;
+}
+
+.year:hover .year1{
   display: none;
 }
