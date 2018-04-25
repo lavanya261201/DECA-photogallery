@@ -4,10 +4,11 @@ body{
 }
 
 /*Navbar*/
-
-
-
-
+nav{
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+}
 
 
 /*Entire Code for Photogallery Stuff*/
