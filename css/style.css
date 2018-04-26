@@ -10,6 +10,10 @@ nav{
   padding: 1rem;
 }
 
+.navbox{
+  display: flex;
+  justify-content: center;
+}
 
 /*Entire Code for Photogallery Stuff*/
 h1{
@@ -112,3 +116,29 @@ h1{
 .year:hover .year1{
   display: none;
 }
+
+/*Awards Legacy-Glass*/
+.awardstitle{
+  padding-top: 4rem;
+}
+
+.allawardscontent{
+  display: flex;
+  justify-content: center;
+}
+
+.glassonly{
+  display: flex;
+  justify-content: center;
+}
+
+.glasstitle{
+  border-bottom: solid yellow 2px;
+}
+
+.glasscontent{
+  margin: 7rem;
+  border: solid white 2px;
+}
+
+/*Awards Legacy-Glass*/
