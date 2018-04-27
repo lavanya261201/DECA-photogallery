@@ -22,13 +22,13 @@
 
     <!--Menu / Navbar-->
     <div class="pos-f-t">
-      <nav class="navbar">
+      <nav class="navbar" id="navbar">
         <!--Toggle Button-->
-        <button class="navbar-toggler btn btn-default" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler btn btn-default active" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+        aria-expanded="false" aria-label="Toggle navigation" href="javascript:void(0)">
           Menu &#9776; <span class="navbar-toggler-icon"></span>
         </button>
       </nav>
-
       <!--Navbar Collapse Content-->
       <div class="collapse" id="navbarToggleExternalContent">
         <div class="bg-dark p-4 navbar-light fluid-container navbox" style="background-color: #353849;">
@@ -41,6 +41,7 @@
 
             <div class="col-lg-3">
               <h3> Legacy </h3>
+              <h5> Awards </h5>
               <h5> Team 6 </h5>
               <h5> State and Regional Officers </h5>
               <h5> Team 5 </h5>
@@ -48,12 +49,13 @@
               <h5> Team 3 </h5>
               <h5> Team 2 </h5>
               <h5> Team 1 </h5>
-              <h5> Awards </h5>
               <h5> Advisor </h5>
             </div>
 
             <div class="col-lg-2">
               <h3> Student Resources </h3>
+              <h5> Choosing a cluster </h5>
+              <h5> Workshop </h5>
             </div>
 
             <div class="col-lg-2">
@@ -78,23 +80,53 @@
       </div>
     </div>
 
-    <!-- <nav>
-      <a>
-        <button class="btn btn-default btn-lg" type="button">
-          Menu &#9776;
-          <span></span>
-        </button>
-      </a>
-    </nav> -->
+    <!-- Awards Legacy -->
+    <h1 class="awardstitle"> Awards Legacy </h1>
+
+    <div class="container allawardscontent">
+      <div class="row glassonly">
+        <div class="col-lg-4 col-sm-12 glasscontent ">
+          <h3 class="glasstitle animated slideInDown"> Norcal Glass </h3>
+          <h2 class="animated slideInDown"> ? </h2>
+        </div>
+        <div class="col-lg-4 col-sm-12 glasscontent">
+          <h3 class="glasstitle animated slideInDown scdcglass"> SCDC Glass </h3>
+          <h2 class="animated slideInDown icdcglass"> ? </h2>
+        </div>
+        <div class="col-lg-4 col-sm-12 glasscontent">
+          <h3 class="glasstitle animated slideInDown icdcglass"> ICDC <br> Glass </h3>
+          <h2 class="animated slideInDown icdcglass"> 1 </h2>
+        </div>
+      </div>
+      <div class="row finalistonly">
+        <div class="col-lg-3 finalistcontent">
+          <h3 class="finalist-title animated slideInDown fin"> Minicon Medals </h3>
+          <h2 class="animated slideInDown fin"> ? </h2>
+        </div>
+        <div class="col-lg-3 finalistcontent">
+          <h3 class="finalist-title animated slideInDown fin"> NorCal Finalists </h3>
+          <h2 class="animated slideInDown fin"> ? </h2>
+        </div>
+        <div class="col-lg-3 finalistcontent">
+          <h3 class="finalist-title animated slideInDown fin"> SCDC Finalists </h3>
+          <h2 class="animated slideInDown fin"> ? </h2>
+        </div>
+        <div class="col-lg-3 finalistcontent">
+          <h3 class="finalist-title animated slideInDown fin"> ICDC <br> Finalists </h3>
+          <h2 class="animated slideInDown fin"> ? </h2>
+        </div>
+      </div>
+    </div>
 
     <!--Header-->
     <h1> DECA Photogallery </h1>
 
     <!-- Photogallery -->
-    <div class="container">
+    <div class="container photogallery stuff">
+
       <div class="year">
         <h2 class="year6"> 2017-2018 </h2>
-        <div id="content6">
+        <div id="content6" class="animated fadeinLeft">
           <h4> ICDC </h4>
           <h4> States CDC </h4>
           <h4> NorCal </h4>
@@ -106,7 +138,7 @@
 
       <div class="year">
         <h2 class="year5"> 2016-2017 </h2>
-        <div id="content5">
+        <div id="content5" class="animated fadeinLeft">
           <h4> ICDC </h4>
           <h4> States CDC </h4>
           <h4> NorCal </h4>
@@ -117,7 +149,7 @@
 
       <div class="year">
         <h2 class="year4"> 2015-2016 </h2>
-        <div id="content4">
+        <div id="content4" class="animated fadeinLeft">
           <h4> ICDC </h4>
           <h4> States CDC </h4>
           <h4> NorCal </h4>
@@ -127,7 +159,7 @@
 
       <div class="year">
         <h2 class="year3"> 2014-2015 </h2>
-        <div id="content3">
+        <div id="content3" class="animated fadeinLeft">
           <h4> ICDC </h4>
           <h4> States CDC </h4>
           <h4> NorCal </h4>
@@ -137,7 +169,7 @@
 
       <div class="year">
         <h2 class="year2"> 2013-2014 </h2>
-        <div id="content2">
+        <div id="content2" class="animated fadeinLeft">
           <h4> ICDC </h4>
           <h4> States CDC </h4>
           <h4> NorCal </h4>
@@ -147,49 +179,11 @@
 
       <div class="year">
         <h2 class="year1"> 2012-2013 </h2>
-        <div id="content1">
+        <div id="content1" class="animated fadeinLeft">
           <h4> ICDC </h4>
           <h4> States CDC </h4>
           <h4> NorCal </h4>
           <h4> Fundraisers </h4>
-        </div>
-      </div>
-    </div>
-
-    <!-- Awards Legacy -->
-    <h1 class="awardstitle"> Awards Legacy </h1>
-
-    <div class="container allawardscontent">
-      <div class="row glassonly">
-        <div class="col-lg-4 col-sm-1 glasscontent">
-          <h3 class="glasstitle"> Norcal Glass </h3>
-          <h2> ? </h2>
-        </div>
-        <div class="col-lg-4 col-sm-1 glasscontent">
-          <h3 class="glasstitle"> SCDC Glass </h3>
-          <h2> ? </h2>
-        </div>
-        <div class="col-lg-4 col-sm-1 glasscontent">
-          <h3 class="glasstitle"> ICDC Glass </h3>
-          <h2> 1 </h2>
-        </div>
-      </div>
-      <div class="row finalistonly">
-        <div class="col-lg-3 finalistcontent">
-          <h3 class="finalist-title"> Minicon Medals </h3>
-          <h2> ? </h2>
-        </div>
-        <div class="col-lg-3 finalistcontent">
-          <h3 class="finalist-title"> NorCal Finalists </h3>
-          <h2> ? </h2>
-        </div>
-        <div class="col-lg-3 finalistcontent">
-          <h3 class="finalist-title"> SCDC Finalists </h3>
-          <h2> ? </h2>
-        </div>
-        <div class="col-lg-3 finalistcontent">
-          <h3 class="finalist-title"> ICDC Finalists </h3>
-          <h2> ? </h2>
         </div>
       </div>
     </div>

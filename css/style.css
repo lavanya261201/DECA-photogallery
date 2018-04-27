@@ -15,11 +15,80 @@ nav{
   justify-content: center;
 }
 
+.button{
+  position: absolute;
+}
+
+
+/*Awards Legacy-Glass*/
+.awardstitle{
+  padding-top: 4rem;
+}
+
+.allawardscontent{
+  display: flex;
+  justify-content: center;
+}
+
+.glassonly{
+  display: flex;
+  justify-content: center;
+}
+
+.glasstitle{
+  padding-bottom: 1.2rem;
+  border-bottom: solid yellow 2px;
+}
+
+.glasscontent{
+  text-align: center;
+  margin: 5rem;
+  /* border: solid white 2px; */
+}
+
+/*Animation Stuff - Glass*/
+.scdcglass{
+  animation-delay: 0.25s;
+}
+
+.icdcglass{
+  animation-delay: 0.5s;
+}
+
+/*Animation Stuff - Finalists*/
+.fin{
+  animation-delay: 0.75s;
+}
+
+/*Awards Legacy - Finalists*/
+.finalistonly{
+  display: flex;
+  justify-content: center;
+}
+
+.finalist-title{
+  padding-bottom: 1.2rem;
+  border-bottom: solid #01c4c4 2px;
+}
+
+.finalistcontent{
+  text-align: center;
+  margin-bottom: 5rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+
 /*Entire Code for Photogallery Stuff*/
+
 h1{
   text-align: center;
   font-weight: bold;
   margin-bottom: 5rem;
+}
+
+.photogallery{
+  padding-bottom: 10rem;
 }
 
 .container{
@@ -116,29 +185,3 @@ h1{
 .year:hover .year1{
   display: none;
 }
-
-/*Awards Legacy-Glass*/
-.awardstitle{
-  padding-top: 4rem;
-}
-
-.allawardscontent{
-  display: flex;
-  justify-content: center;
-}
-
-.glassonly{
-  display: flex;
-  justify-content: center;
-}
-
-.glasstitle{
-  border-bottom: solid yellow 2px;
-}
-
-.glasscontent{
-  margin: 7rem;
-  border: solid white 2px;
-}
-
-/*Awards Legacy-Glass*/
